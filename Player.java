@@ -1,9 +1,9 @@
 public Player{
 
 private String name;
-private String strategy;
+private Final String STRATEGY;
 
-public Player(String name, String strategy){
+public Player(String name){
 
 }
 
