@@ -1,9 +1,10 @@
-public Player{
+public class Player{
 
 private String name;
 private Final String STRATEGY;
 
 public Player(String name){
+    name = this.name;
 
 }
 
@@ -15,7 +16,7 @@ public String getName(){
 
 }
 public String getStrategy(){
-    return strategy;
+    return STRATEGY;
 
 }
 
