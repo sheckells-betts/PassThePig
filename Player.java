@@ -1,7 +1,7 @@
 public class Player {
 
     private String name;
-private final String STRATEGY;
+    public String strategy;
 
     public Player(String name) {
         name = this.name;
