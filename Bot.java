@@ -3,7 +3,7 @@ class Bot extends Player{
         STRATEGY=s;
     }
     public bot(String n, String s){
-        name=n;
+        super.name=n;
         STRATEGY=s;
     }
 }
