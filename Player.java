@@ -18,7 +18,7 @@ public class Player {
     }
 
     public String getStrategy() {
-        return STRATEGY;
+        return strategy;
 
     }
 
