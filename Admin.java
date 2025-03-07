@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Admin {
     private ArrayList<Integer> scores = new ArrayList<Integer>();
     private String[] rolls = { "Dot", "No Dot", "Razorback", "Trotter", "Snouter", "Leaning Jowler" };
