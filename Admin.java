@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 public class Admin {
-    private ArrayList<Integer> scores = new ArrayList<Integer>();
+    public ArrayList<Integer> scores = new ArrayList<Integer>();
     private String[] rolls = { "Dot", "No Dot", "Razorback", "Trotter", "Snouter", "Leaning Jowler" };
     private double[] probs = { 34.90, 30.20, 22.4, 8.80, 3, 0.70 };
 
-    public void roll(int hand,int player) {
+    public void roll(int hand,int player,) {
         int score=hand;
         for (int i = 0 ; i < 2; i++ ){
             
@@ -33,12 +33,17 @@ public class Admin {
         }
         score(score,player);
     }
-    private void score(int s, int player){
+    private void score(int s, int player,boolean rollAgain){
         System.out.println("hand score is "+s);
-        scores[player]+=s;
 
-        String pig1; 
-        String pig2;
+        while (rollAgain){
+            roll(s,player)
+
+        }
+        
+        //scores[player]+= s;
+
+       
 
 
     }
